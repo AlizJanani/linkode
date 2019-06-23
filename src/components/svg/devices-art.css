@@ -1,0 +1,159 @@
+.devices-art .cls-1,
+.cls-3 {
+    fill: none;
+}
+
+.devices-art .cls-2 {
+    fill: var(--primary-light);
+}
+
+.devices-art .cls-3 {
+    stroke: var(--text);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    stroke-dasharray: 11;
+}
+
+.devices-art .cls-4 {
+    fill: var(--primary-dark);
+}
+
+.devices-art .cls-5 {
+    fill: var(--text);
+}
+
+.devices-art .cls-6 {
+    fill: var(--accent);
+}
+
+#devices-rotate {
+    transform-origin: center;
+    animation: 12s devices-rotate ease-in-out infinite;
+}
+
+@keyframes devices-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    5% {
+        transform: rotate(120deg);
+    }
+    33% {
+        transform: rotate(120deg);
+    }
+    38% {
+        transform: rotate(240deg);
+    }
+    66% {
+        transform: rotate(240deg);
+    }
+    71% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#phone-device, #pc-device, #tablet-device {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes device-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    5% {
+        transform: rotate(-120deg);
+    }
+    33% {
+        transform: rotate(-120deg);
+    }
+    38% {
+        transform: rotate(-240deg);
+    }
+    66% {
+        transform: rotate(-240deg);
+    }
+    71% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+#phone-device {
+    animation-name: device-rotate, phone-color;
+}
+
+@keyframes phone-color {
+    0% {
+        fill: var(--accent);
+    }
+    5% {
+        fill: var(--text)
+    }
+    66% {
+        fill: var(--text);
+    }
+    71% {
+        fill: var(--accent);
+    }
+    100% {
+        fill: var(--accent);
+    }
+}
+
+#pc-device {
+    transform-origin: 50% 45%;
+    animation-name: device-rotate, pc-color;
+}
+
+@keyframes pc-color {
+    0% {
+        fill: var(--text);
+    }
+    5% {
+        fill: var(--accent)
+    }
+    33% {
+        fill: var(--accent);
+    }
+    38% {
+        fill: var(--text);
+    }
+    100% {
+        fill: var(--text);
+    }
+}
+
+#tablet-device {
+    animation-name: device-rotate, tablet-color;
+}
+
+@keyframes tablet-color {
+    0% {
+        fill: var(--text);
+    }
+    33% {
+        fill: var(--text);
+    }
+    38% {
+        fill: var(--accent);
+    }
+    66% {
+        fill: var(--accent);
+    }
+    71% {
+        fill: var(--text);
+    }
+    100% {
+        fill: var(--text);
+    }
+}

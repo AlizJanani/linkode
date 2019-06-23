@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    padding: var(--padding-v) var(--padding-h);
+    flex-grow: 1;
+    background-image: url('../assets/images/cloud-full.svg');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 1366px;
+}
+
+.content-page-enter {
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+.content-page-enter-active {
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 0.5s all ease;
+}
+
+.content-page-exit {
+    opacity: 1;
+}
+
+.content-page-exit-active {
+    opacity: 0;
+}

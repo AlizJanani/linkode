@@ -1,0 +1,35 @@
+@media only screen and (max-width: 480px) {
+    .home-choose {
+        flex-direction: column;
+    }
+    .home-choose-seperator {
+        width: 0px;
+        height: 25px;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 480px) {
+    .home-choose {
+        flex-direction: row;
+    }
+    .home-choose-seperator {
+        width: 50px;
+        height: 0px;
+    }
+}
+
+.home-choose {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+}
+
+.home-choose button {
+    width: 200px;
+}
+
+.home-choose a {
+    max-width: 100%;
+}

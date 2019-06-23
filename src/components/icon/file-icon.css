@@ -1,0 +1,108 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 25/07/2016 09:05
+  	*/
+
+	@font-face {
+	    font-family: "Flaticon";
+	    src: url("../../assets/fonts/FlatIcons/Flaticon.eot");
+	    src: url("../../assets/fonts/FlatIcons/Flaticon.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/FlatIcons/Flaticon.woff") format("woff"), url("../../assets/fonts/FlatIcons/Flaticon.ttf") format("truetype"), url("../../assets/fonts/FlatIcons/Flaticon.svg#Flaticon") format("svg");
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    @font-face {
+	        font-family: "Flaticon";
+	        src: url("../../assets/fonts/FlatIcons/Flaticon.svg#Flaticon") format("svg");
+	    }
+	}
+
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	    font-family: Flaticon;
+	    font-size: 20px;
+	    font-style: normal;
+	}
+
+	.flaticon-acrobat:before {
+	    content: "\f100";
+	}
+
+	.flaticon-artboard:before {
+	    content: "\f101";
+	}
+
+	.flaticon-audio:before {
+	    content: "\f102";
+	}
+
+	.flaticon-audio-1:before {
+	    content: "\f103";
+	}
+
+	.flaticon-word:before {
+	    content: "\f104";
+	}
+
+	.flaticon-text-corrupt:before {
+	    content: "\f105";
+	}
+
+	.flaticon-image:before {
+	    content: "\f106";
+	}
+
+	.flaticon-table:before {
+	    content: "\f107";
+	}
+
+	.flaticon-text:before {
+	    content: "\f108";
+	}
+
+	.flaticon-brush:before {
+	    content: "\f109";
+	}
+	
+	.flaticon-chart:before {
+		content: "\f10b";
+	}
+	
+	.flaticon-chart-1:before {
+		content: "\f10a";
+	}
+
+	.flaticon-json:before {
+	    content: "\f10c";
+	}
+
+	.flaticon-code:before {
+	    content: "\f10d";
+	}
+
+	.flaticon-code-1:before {
+	    content: "\f10e";
+	}
+
+	.flaticon-vector:before {
+	    content: "\f10f";
+	}
+
+	.flaticon-vector-1:before {
+	    content: "\f110";
+	}
+
+	.flaticon-video:before {
+	    content: "\f111";
+	}
+
+	.flaticon-video-1:before {
+	    content: "\f112";
+	}
+
+	.flaticon-zip:before {
+	    content: "\f113";
+	}

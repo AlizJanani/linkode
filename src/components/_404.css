@@ -1,0 +1,8 @@
+._404 {
+    text-align: center;
+}
+
+._404-face {
+    color: var(--accent);
+    padding-right: 0.3em;
+}

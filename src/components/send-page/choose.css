@@ -1,0 +1,13 @@
+.send-choose {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.send-choose a {
+    max-width: 100%;
+}
+

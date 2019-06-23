@@ -1,0 +1,64 @@
+.host-panel-seperator {
+    width: 20px;
+}
+
+.host-page {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.host-title {
+    text-align: center;
+}
+
+.host-title span {
+    color: var(--accent);
+}
+
+.host-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+}
+
+.host-panel-item {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: var(--primary-light);
+    border-radius: 3px;
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.host-panel-item h3 {
+    text-align: center;
+}
+
+.host-panel-item:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+.host-panel-number {
+    text-align: center;
+    max-width: 100%;
+    color: var(--accent);
+    font-size: 38pt;
+}
+
+.host-panel-number span {
+    font-size: 0.3em;
+}

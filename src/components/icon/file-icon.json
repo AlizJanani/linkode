@@ -1,0 +1,62 @@
+{
+    "flaticon-acrobat": [
+        "pdf"
+    ],
+    "flaticon-artboard": [
+        "ppt"
+    ],
+    "flaticon-audio": [
+        "mp3"
+    ],
+    "flaticon-audio-1": [
+        
+    ],
+    "flaticon-word": [
+        "docx", "docm"
+    ],
+    "flaticon-text": [
+        "txt"
+    ],
+    "flaticon-text-corrupt": [
+
+    ],
+    "flaticon-image": [
+        "png", "jpg", "jpeg", "ico"
+    ],
+    "flaticon-table": [
+        "xls", "xlsx", "sav"
+    ],
+    "flaticon-brush": [
+        "psd"
+    ],
+    "flaticon-chart": [
+        
+    ],
+    "flaticon-chart-1": [
+        
+    ],
+    "flaticon-json": [
+        "json"
+    ],
+    "flaticon-code": [
+        "xml", "htm", "html", "php"
+    ],
+    "flaticon-code-1": [
+        "js", "css"
+    ],
+    "flaticon-vector": [
+        "svg", "eps"
+    ],
+    "flaticon-vector-1": [
+        "ai", "sketch"
+    ],
+    "flaticon-video": [
+        "mkv", "mp4"
+    ],
+    "flaticon-video-1": [
+        
+    ],
+    "flaticon-zip": [
+        "zip", "rar", "7z"
+    ]
+}

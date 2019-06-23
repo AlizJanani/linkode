@@ -1,0 +1,38 @@
+@font-face {
+    font-family: IRANSans;
+    src: url('./assets/fonts/IRANSans/IRANSansWeb.ttf');
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 480px) {
+    :root {
+        --padding-h: 20px;
+        --padding-v: 20px;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    :root {
+        --padding-h: 50px;
+        --padding-v: 30px;
+    }
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 768px) {
+    :root {
+        --padding-h: 100px;
+        --padding-v: 40px;
+    }
+}    
+
+:root {
+    --primary: #303030;
+    --primary-light: #282828;
+    --primary-dark: #1E1E1E;
+    --accent: #00E676;
+    --text: #F2F2F2;
+    --direction: rtl;
+}

@@ -1,0 +1,29 @@
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 480px) {
+    nav {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    nav {
+        display: block;
+    }
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.navigation a {
+    margin-left: 40px;
+    transition: 0.2s all ease;
+}
+
+.navigation a:hover, .navigation .active-link {
+    color: var(--accent);
+}

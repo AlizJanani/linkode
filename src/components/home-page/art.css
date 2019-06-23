@@ -1,0 +1,12 @@
+.art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.devices-art {
+    width: 75%;
+    max-width: 270px;
+}

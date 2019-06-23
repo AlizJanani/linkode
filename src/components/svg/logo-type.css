@@ -1,0 +1,21 @@
+.logo-type .cls-1 {
+    fill: var(--accent);
+}
+
+.logo-type .cls-2 {
+    fill: var(--text);
+}
+
+.logo-type {
+    overflow: visible;
+}
+
+#logo-type-logo {
+    transform-origin: center;
+    transform-box: fill-box;
+    transition: 0.5s ease all;
+}
+
+.logo-type:hover #logo-type-logo {
+    transform: rotate(180deg);
+}

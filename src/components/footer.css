@@ -1,0 +1,58 @@
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 480px) {
+    .footer {
+        justify-content: space-between;
+    }
+    .footer-logo-type {
+        height: 32px;
+    }
+    .footer .material-icons {
+        display: inline;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .footer {
+        justify-content: space-between;
+    }
+    .footer-logo-type {
+        height: 36px;
+    }
+    .footer .material-icons {
+        display: none;
+    }
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 768px) {
+    .footer {
+        justify-content: space-between;
+    }
+    .footer-logo-type {
+        height: 48px;
+    }
+    .footer .material-icons {
+        display: none;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 100;
+    width: 100;
+    min-height: 72px;
+    padding: var(--padding-v) var(--padding-h);
+    background-color: var(--primary-dark);
+}
+
+.footer .material-icons{
+    transition: 0.3s color ease;
+}
+
+.footer .material-icons:hover {
+    color: var(--accent);
+}

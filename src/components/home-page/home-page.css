@@ -1,0 +1,28 @@
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 480px) {
+    .home-page {
+        min-height: 425px;  
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .home-page {
+        min-height: 450px;  
+    }
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 768px) {
+    .home-page {
+        min-height: 450px;  
+    }
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

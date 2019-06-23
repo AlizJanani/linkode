@@ -1,0 +1,148 @@
+.file-drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 0px;
+    width: 100%;
+    max-width: 500px;
+    height: 225px;
+    max-height: 225px;
+    background-color: var(--primary-light);
+    border: 2px dashed var(--text);
+    transition: opacity 0.3s ease;
+}
+
+.file-drop-list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    padding: 2px 5px;
+}
+
+.file-drop-list-enter {
+    opacity: 0;
+}
+
+.file-drop-list-enter-active {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.file-drop-list-exit {
+    opacity: 1;
+}
+
+.file-drop-list-exit-active {
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.file-drop-list li {
+    display: flex;
+    direction: ltr;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: 30px;
+    min-height: 30px;
+    margin-bottom: 3px;
+    font-size: 7.8pt;
+    font-weight: lighter;
+    background-color: var(--primary-dark);
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+
+.file-drop-list li .file-name {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    align-items: flex-start;
+    white-space: nowrap;
+    justify-content: center;
+    width: calc(100% - 45px);
+    padding: 0px 5px;
+}
+
+.file-drop-list li .file-icon {
+    width: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+}
+
+.file-drop-list li .file-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    font-size: 20px;
+    transition: 0.3s all ease;
+    float: right;
+    user-select: none;
+}
+
+.file-drop-list li .file-close:hover {
+    color: var(--accent);
+}
+
+#file-add-button-list {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 20px;
+    background-color: var(--accent);
+    cursor: pointer;
+    user-select: none;
+}
+
+.file-drop-active {
+    opacity: 0.5;
+}
+
+.file-drop-text {
+    display: inline-flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-light);
+}
+
+.file-drop-text-enter {
+    opacity: 0;
+}
+
+.file-drop-text-enter-active {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.file-drop-text-exit {
+    opacity: 1;
+}
+
+.file-drop-text-exit-active {
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.file-add-button-circle {
+    margin-right: 8px;
+}
+
+.file-drop-text label:hover {
+    background-color: transparent;
+}
